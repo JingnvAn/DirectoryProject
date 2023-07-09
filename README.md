@@ -2,14 +2,14 @@
 There are three ways to start and test the program, choose either one that works the best for you.
 Source files are located in the `src/`, unit tests are in `test/`. Compiled files are in `output/`. 
 Executing `run.sh` will compile the source code in your environment and generate a `.jar` file in the `output/` folder.
+I've generated a `.jar` file in the `output/` from my local dev environment. 
 
 
 ### Method 1: Compile it on your machine
-If you do not have Java JDK setup, check out the last `Setup Java JDK` section below first.
+If you do not have Java JDK setup, check out the  `Setup Java JDK` section first.
 1. Download the `CreateDirectory.zip` file: https://drive.google.com/drive/folders/1MqDJCwd3is793AeqPpOC44CefpcwlXAd?usp=sharing, then unzip it.
 2. In your terminal, go to the directory where the unzipped files are
-3. If you have Java JDK installed on your machine, you can follow the below instructions. Otherwise, follow instructions on the **Use Docker** section
-4. You should be inside the `CreateDirectory` folder. There are two shell scripts `run.sh` and `test.sh`. First, run
+3. You should be inside the `CreateDirectory` folder. There are two shell scripts `run.sh` and `test.sh`. First, run
    ```
    chmod 755 run.sh
    chmod 755 test.sh
@@ -37,8 +37,8 @@ If you do not have Java JDK setup, check out the last `Setup Java JDK` section b
    DELETE foods/fruits/apples
    LIST
    ```
-5. Enter `q` or `Q` to exit.
-6. Run the test script:
+4. Enter `q` or `Q` to exit.
+5. Run the test script:
    ```
    ./test.sh
    ```
